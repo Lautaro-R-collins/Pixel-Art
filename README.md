@@ -10,6 +10,6 @@
 # Example
 [![Pixel JS](https://pbs.twimg.com/media/F4-NHXvWMAAT3TH?format=jpg&name=small "Pixel JS")](http://https://pbs.twimg.com/media/F4-NHXvWMAAT3TH?format=jpg&name=small "Pixel JS")
 
-[![Pixel-pika](https://pbs.twimg.com/media/F4-NH8pWcAAhXjY?format=jpg&name=900x900 "Pixel-pika")](http://https://pbs.twimg.com/media/F4-NH8pWcAAhXjY?format=jpg&name=900x900 "Pixel-pika")
 
-###End
+
+
