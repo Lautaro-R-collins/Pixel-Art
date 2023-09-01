@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pixel Art</title>
+    <link rel="stylesheet" href="style.css" class="css">
+    <link rel="icon" href="./font-img/pika-logo.png">
+</head>
+<body>
+    <header>
+        <a href="index.html">
+            <img id="pikachu" src="./font-img/pika-logo.png">
+        </a>
+        <h1>Pixel Art</h1>
+    </header>
+
+    <main>
+        <div class="wrapper">
+            <div class="main">              
+                <div class="controls">
+                    <!--choose pixel color-->
+                    <div class="color-card">
+                        <div class="color-box">
+                            <input type="color" id="color-select">
+                        </div>
+                        <span>Pixel Color</span>
+                    </div>
+                    <!--color-->
+                    <div class="color-card cc2">
+                        <div class="color-box">
+                            <input type="color" id="bg-color-select" value="#ffffff">
+                        </div>
+                        <span>Background</span>
+                    </div>
+                    <!--options-->
+                    <button id="color-fill">Color Background</button>
+                    <button id="color-grabber">Color Grabber</button>
+                    <!--drawing tools-->
+                    <button id="eraser-btn">Eraser</button>
+                    <button id="rainbow-btn">Rainbow</button>
+                    <button id="shader-btn">Shading</button>
+                    <button id="lighten-btn">Lighten</button>
+                    <!--choose grid size-->
+                    <div class="slider-box">
+                        <input type="range" value="24" min="1" max="60" id="range-slider"
+                        onmousemove="rangeSliderValue(this.value)" onChange="rangeSlider(this.value)">
+                        <div id="progress-bar"></div>
+                    </div>
+                    <p class="grid-size">Grid size: <span id="range-value">24</span> x <span id="range-value">24</span></p>
+                    <!--remove the grid-->
+                    <button id="grid-btn" class="btn-on">Grid Lines</button>
+                    <!--Clear-->
+                    <button id="clear-grid">Clear</button>  
+                </div>
+                <!--grids to draw-->
+                <div class="grid-wrapper">
+                    <div class="grid-container toggle-grid" draggable="false"></div>
+                </div>
+            </div>
+        </div>
+        <script src="index.js"></script>
+    </main>
+</body>
+</html>
